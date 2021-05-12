@@ -1,16 +1,21 @@
 # springboot-java-hibernate-rest-api 🛋️
 
-This Project is a working example of 🚀 a java application server that exposes REST endpoints and connects to a database
+This Project is a working example of a `spring boot` based `java` application server. 🚀
+
+- It exposes REST endpoints (`GET`,`PUT`,`POST`,`DELETE`
+- Connetc to and updates to a mysql database
 
 
 # How To Run 🏃
 >	Its Simple!
 
-**Step 1:** checkout this repository ( `git clone https://github.com/eaccmk/springboot-java-hibernate-rest-api.git` )
+**Step 1:** checkout this repository 
+( `git clone https://github.com/eaccmk/springboot-java-hibernate-rest-api.git` )
 
 **Step 2:** Open Project (In your favourite IDE, I have used [Intellij] )
 
-**Step 3:** Open your terminal/cmd and run `mvn clean install` to get minimum libraries needed to run this project.
+**Step 3:** On terminal run `mvn clean install` 
+this gets you minimum libraries needed in order to run the project.
 
 **Step 4:** Once done, Run 
 
@@ -18,7 +23,7 @@ This Project is a working example of 🚀 a java application server that exposes
   ./mvn package && java -jar target/springboot-java-hibernate-rest-api-0.1.0.jar
 ```
 
-> On succes you should see this message `Started Application in 7.376 seconds (JVM running for 9.934)` like :
+> On succes you should see message in this pattern: (as on `May-2021`)
 
 ```console
 [INFO]
@@ -52,24 +57,24 @@ This Project is a working example of 🚀 a java application server that exposes
 
 ```
 
-> In a hurry ? (although, not recommended) you can run the project without test's  just add `mvn`'s `-DskipTests` tag :
+> Although not recommended, you may run it by skipping test's by adding `-DskipTests` tag:
 
 
-```java
+```mvn
 ./mvnw -DskipTests package && java -jar target/spring-boot-rest-api-java-app-0.1.0.jar
 ```
 
 
 **Step 5:** To verify the application hit `curl localhost:8080/` and you must see
 
-```sh
+```console
 Welcome! - Springboot + java + Hibernate + Rest API
 
 Need more interesting projects, follow me @ https://github.com/eaccmk
 
 ```
 
-**Step 6:** For more test automation example go to my [Test-Automation-Project-POCs] repo.
+**Step 6:** To explore test automation projects see [Test-Automation-Project-POCs] repo.
 
 ### Project Structure
 
