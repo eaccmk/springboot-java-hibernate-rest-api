@@ -2,15 +2,18 @@
 
 This Project is a working example of a `spring boot` based `java` application server. 🚀
 
-- It exposes REST endpoints (`GET`,`PUT`,`POST`,`DELETE`
+- It exposes REST endpoints (`GET`,`PUT`,`POST`,`DELETE`)
 - Connetc to and updates to a mysql database
 
 
 # How To Run 🏃
 >	Its Simple!
 
-**Step 1:** checkout this repository 
-( `git clone https://github.com/eaccmk/springboot-java-hibernate-rest-api.git` )
+**Step 1:** checkout this repository
+
+```console
+git clone https://github.com/eaccmk/springboot-java-hibernate-rest-api.git
+```
 
 **Step 2:** Open Project (In your favourite IDE, I have used [Intellij] )
 
@@ -19,7 +22,7 @@ this gets you minimum libraries needed in order to run the project.
 
 **Step 4:** Once done, Run 
 
-```mvn
+```console
   ./mvn package && java -jar target/springboot-java-hibernate-rest-api-0.1.0.jar
 ```
 
@@ -57,10 +60,10 @@ this gets you minimum libraries needed in order to run the project.
 
 ```
 
-> Although not recommended, you may run it by skipping test's by adding `-DskipTests` tag:
+> Although not recommended, you can skip test's by adding `-DskipTests` tag:
 
 
-```mvn
+```console
 ./mvnw -DskipTests package && java -jar target/spring-boot-rest-api-java-app-0.1.0.jar
 ```
 
