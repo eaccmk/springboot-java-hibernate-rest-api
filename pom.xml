@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.eaccmk</groupId>
-    <artifactId>springboot-java-hibernate-rest-sql</artifactId>
+    <artifactId>springboot-java-hibernate-rest-api</artifactId>
     <version>0.0.1.</version>
     <packaging>jar</packaging>
     <name>Spring Boot Java App</name>
